@@ -5,7 +5,7 @@ macro_rules! err {
             use colored::Colorize;
             let now = chrono::Local::now();
             let formatted_time = now.format("%Y-%m-%d %H:%M:%S").to_string();
-            let types = "[ERROR]";
+            let types = "[ERR]";
 
             eprintln!("{} {}:{}",types.red(),formatted_time.red(),$x);
         }
