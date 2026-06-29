@@ -7,6 +7,8 @@ description = "ログを簡単にわかりやすく出力できるように。"
 license = "MIT"
 repository = "https://github.com/dev-Kanade/loogs"
 readme="README.md"
+keywords = ["log", "loogs"]
+
 [dependencies]
 chrono = "0.4"
 colored = "2.1"
