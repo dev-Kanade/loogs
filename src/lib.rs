@@ -18,3 +18,4 @@ mod tests {
 mod info;
 mod error;
 mod debug;
+mod wern;
