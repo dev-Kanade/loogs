@@ -4,7 +4,7 @@ macro_rules! info {
         use colored::Colorize;
         let now = chrono::Local::now();
         let formatted_time = now.format("%Y-%m-%d %H:%M:%S").to_string();
-
-        println!("{}[INF]:{}",formatted_time,$x);
+        let info = "[INFO]";
+        println!("{} {}:{}",formatted_time,$x);
     }
 }
