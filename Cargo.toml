@@ -6,5 +6,5 @@ edition = "2024"
 description = "ログを簡単にわかりやすく出力できるように。"
 license = "MIT"
 repository = "https://github.com/dev-Kanade/loogs"
-
+readme="README.md"
 [dependencies]
