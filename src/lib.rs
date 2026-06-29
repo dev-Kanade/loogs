@@ -16,3 +16,4 @@ mod tests {
 
 #[macro_use]
 mod info;
+mod err;
