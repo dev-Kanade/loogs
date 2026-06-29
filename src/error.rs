@@ -7,7 +7,7 @@ macro_rules! err {
             let formatted_time = now.format("%Y-%m-%d %H:%M:%S").to_string();
             let types = "[EROR]";
 
-            eprintln!("{} {}:{}",types.red(),formatted_time.red(),$x);
+            eprintln!("{} {} : {}",types.red(),formatted_time.red(),$x);
         }
     }
 }

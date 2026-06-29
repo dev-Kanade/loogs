@@ -6,7 +6,7 @@ macro_rules! info {
             let now = chrono::Local::now();
             let formatted_time = now.format("%Y-%m-%d %H:%M:%S").to_string();
             let info = "[INFO]";
-            println!("{} {}:{}",info.green(),formatted_time.green(),$x);
+            println!("{} {} : {}",info.green(),formatted_time.green(),$x);
         }
     }
 }
