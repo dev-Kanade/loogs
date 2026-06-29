@@ -3,10 +3,10 @@ use chrono::Local;
 
 #[macro_export]
 macro_rules! info {
-    (info)=>{
+    ($x:expr)=>{
         let now = Local::now();
         let formatted_time = now.format("%Y-%m-%d %H:%M:%S").to_string();
 
-        println!("{}[INF]:{}",formatted_time,info);
+        println!("{}[INF]:{}",formatted_time,$x);
     }
 }
