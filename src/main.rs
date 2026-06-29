@@ -1,5 +1,5 @@
 fn main(){
-    loogs::info!("jj");
+    loogs::info!("INFO");
     loogs::err!("Error");
     loogs::debug!("DEBUG");
     loogs::wern!("WERN");
