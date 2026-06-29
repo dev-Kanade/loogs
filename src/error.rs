@@ -5,5 +5,7 @@ macro_rules! err {
         let now = chrono::Local::now();
         let formatted_time = now.format("%Y-%m-%d %H:%M:%S").to_string();
         let types = "[ERROR]";
+
+        eprintln!("{} {}:{}",info.red(),formatted_time.red(),$x);
     }
 }
