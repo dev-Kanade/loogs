@@ -12,7 +12,7 @@ cargo add loogs
 `Cargo.toml`の`dependencies`に以下を追加
 ```toml
 [dependencies]
-loogs = "1.0.3"
+loogs = "1.0.4"
 ```
 
 ## ドキュメント
